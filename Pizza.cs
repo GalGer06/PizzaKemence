@@ -9,16 +9,16 @@ namespace PizzaKemence
     internal class Pizza
     {
         private string nev;
-        private string meret;
+        private int meret;
 
-        public Pizza(string nev, string meret)
+        public Pizza(string nev, int meret)
         {
             this.nev = nev;
             this.meret = meret;
         }
 
         public string Nev { get => nev; set => nev = value; }
-        public string Meret { get => meret; set => meret = value; }
+        public int Meret { get => meret; set => meret = value; }
     
         public override string ToString()
         {
