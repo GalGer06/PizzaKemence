@@ -8,6 +8,5 @@ namespace PizzaKemence
 {
     internal class Futar
     {
-
     }
 }
